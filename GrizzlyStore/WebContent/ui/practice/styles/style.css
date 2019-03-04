@@ -1,0 +1,286 @@
+#div1 {
+	text-align:center;
+	font-face:verdana;
+	font-weight:bold;
+}
+input[type="text"], input[type="password"]
+{
+	width:20%;
+	align-content:center;
+	border-radius:20px;
+	background-color:#ebebeb;
+	left:100%;
+	display:block;
+	margin:0 auto;
+}
+input[type="submit"]
+{
+	background-color:#aeaeae;
+	border-radius:20px;
+	width:10%;
+	font-face:verdana;
+	font-weight:bold;
+	font-color:#5d5d5d;
+}
+#navdiv
+{
+	background-color:#f2f2f2;
+}
+#srch-term, #searchbtn
+{
+	border-radius:20px;
+	background-color:#fff;
+	margin-top:2px;
+	
+}
+#notif-button
+{
+	text-align:center;
+	display:block;
+	margin:0 auto;
+}
+#bodydiv
+{
+	position:relative;
+	top:50px;
+	padding:30px;
+}
+
+div.well
+{
+	width:80%;
+	height:700px;
+}
+#pill
+{
+	
+	background-color:#727272;
+	width:1300px;
+	height:70px;
+	
+}
+#products, #vendors, #category
+{
+	font-family: "Trebuchet MS";
+	color:black;
+	font-size:40px;
+	height:70px;
+}
+#pill>li.active,
+#pill>li:hover,
+#pill>li:focus {
+   background-color: #5c8a36;
+}
+#products-table th.regular{
+	font-family: "Trebuchet MS";
+	color:#808080;
+	/*width:200%;*/
+	border-width:2px;
+	text-align:center;
+	padding:10px;
+	font-size:18px;
+	border-color: white #c6c5c5 #c6c5c5 white;
+}
+#products-table td.regular{
+	font-family: "Trebuchet MS";
+	border-width:2px;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	padding:7px;
+	font-size:18px;
+	border-color: white #c6c5c5 #c6c5c5 white;
+}
+#products-table td.regular-rating{
+	font-family: "Trebuchet MS";
+	border-width:2px;
+	color:#7c7c7c;
+	font-weight:bold;
+	text-align:center;
+	padding:7px;
+	font-size:18px;
+	border-color: white #c6c5c5 #c6c5c5 white;
+}
+#products-table th.lastcol
+{
+	border-color: white white #c6c5c5 white;
+	border-width:2px;
+	text-align:center;
+	padding:10px;
+	font-family: "Trebuchet MS";
+}
+#products-table td.lastcol
+{
+	border-color: white white #c6c5c5 white;
+	border-width:2px;
+	text-align:center;
+	padding:10px;
+	font-family: "Trebuchet MS";
+}
+#products-table
+{
+	width:1300px;
+	border-bottom: 5px solid white;
+	
+}
+#products-table th.lastcol input.btn btn-default{
+	width:500px;
+}
+#productcheck{
+	
+}
+.name {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.name input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius:50px;
+}
+.name input:checked ~ .checkmark {
+  background-color: black;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.name input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.name .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    background-color: red;
+}
+.ad-left {
+  float: left;
+}
+
+.ad-right {
+  float: right;
+  margin-left: 600px;
+  width:550px;
+}
+.entire-thing
+{
+	width:1300px;
+}
+div.ad-right{
+	font-family: "Trebuchet MS";
+}
+div.ad-right ::-webkit-input-placeholder { 
+  color: black;
+  font-weight:bold;
+  font-size:20px;
+}
+div.ad-right input:focus{
+	border: 0px solid white !important;
+box-shadow: 0 0 0px white !important;
+-moz-box-shadow: 0 0 0px white !important;
+-webkit-box-shadow: 0 0 0px white !important;
+}
+div.ad-right input{
+	background-color:white;
+	font-size:20px;
+	font-weight:bold;
+	border-color:white;
+}
+#categorydrop
+{
+	background-color:white;
+	font-size:20px;
+	color:black;
+	font-weight:bold;
+}
+#Addimage{
+	font-weight:bold;
+	font-family:"Trebuchet MS";
+	font-size:25px;
+	margin-top:60px;
+}
+.titleproduct{
+	font-weight:bold;
+}
+.description{
+	font-weight:bold;
+	font-size:15px;
+}
+.prodtitle{
+	font-family:"Trebuchet MS";
+}
+.ratingsmall{
+	font-family:"Trebuchet MS";
+	font-weight:bold;
+	color:grey;
+}
+#usr1:focus::-webkit-input-placeholder, 
+#pwd1:focus::-webkit-input-placeholder, 
+#pwd2:focus::-webkit-input-placeholder, 
+#pwd3:focus::-webkit-input-placeholder {
+	color:transparent; 
+	}
+	
+	
+	.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: grey;
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+    background-color: grey;
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+    background-color: grey;
+}
+
+
+/* active (faded) */
+.nav-pills .pill-1 .nav-link:focus {
+    background-color: #c9c9c9;
+}
+
+.nav-pills .pill-2 .nav-link:focus {
+    background-color: #c9c9c9;
+}
+
+.nav-pills .pill-3 .nav-link:focus {
+    background-color: #c9c9c9;
+}
+
+

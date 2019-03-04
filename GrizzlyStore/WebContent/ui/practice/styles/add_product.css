@@ -1,0 +1,41 @@
+.to{
+width:100%;
+background-color: #BEBEBE;
+height:65px;
+}
+
+.image{
+width:250px;
+height:60px;
+margin-left:10px;
+margin-top:5px;
+}
+
+.search_b{
+border-radius:25px ;
+width:300px;
+padding: 5px;
+margin-top:12px;
+}
+
+/* .glyphicon-search{ */
+/* border-radius: 0px 50px 50px 0px; */
+/* } */
+
+#searchit{
+margin-top: 12px;
+}
+
+.bell{
+margin-left:920px;
+margin-top:12px;
+}
+
+.but{
+background-color: dimgrey;
+color: black;
+border-radius:25px;
+margin-left:10px;
+margin-top:0px;
+width: 80px;
+}
